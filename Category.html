@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
-  <body class="text-white">
+  <body class="text-white d-flex flex-column min-vh-100">
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 p-0">
@@ -102,8 +102,8 @@
                 </div>
             </div>
         </div>
-                   <div class="col-12 col-sm-6 col-md-12 mt-3">
-        <div class="card">
+        <div class="col-12 col-sm-6 col-md-12 mt-3">
+          <div class="card">
             
             <div class="card-header d-flex justify-content-between align-items-center">
                 <span><i class="bi bi-list"></i> Manage Category</span>
@@ -111,21 +111,16 @@
                     <input type="text" class="form-control form-control-sm" placeholder="Search">
                 </div>
             </div>
-
-            <div class="card-body">
-                
+            <div class="card-body">              
                 <!-- Show entries -->
                 <div class="d-flex justify-content-between mb-2">
                     <div>
                         Show 
                         <select class="form-select form-select-sm d-inline w-auto">
                             <option>10</option>
-                            <option>25</option>
-                            <option>50</option>
                         </select> entries
                     </div>
                 </div>
-
                 <!-- Table -->
                 <div class="table-responsive">
                     <table class="table table-bordered table-striped text-center">
@@ -140,7 +135,6 @@
                                 <th>Action</th>
                             </tr>
                         </thead>
-
                         <tbody>
                             <tr>
                                 <td>1</td>
@@ -150,12 +144,11 @@
                                 <td>4.00</td>
                                 <td><span class="badge bg-success">Activated</span></td>
                                 <td>
-                                    <button class="btn btn-danger btn-sm">Deactivate</button>
+                                    <button class="btn btn-danger btn-sm mb-2">Deactivate</button>
                                     <button class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
                                     <button class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
                                 </td>
                             </tr>
-
                             <tr>
                                 <td>2</td>
                                 <td>6</td>
@@ -164,12 +157,11 @@
                                 <td>2.00</td>
                                 <td><span class="badge bg-success">Activated</span></td>
                                 <td>
-                                    <button class="btn btn-danger btn-sm">Deactivate</button>
+                                    <button class="btn btn-danger btn-sm mb-2">Deactivate</button>
                                     <button class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
                                     <button class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
                                 </td>
                             </tr>
-
                             <tr>
                                 <td>3</td>
                                 <td>2</td>
@@ -178,12 +170,11 @@
                                 <td>5.00</td>
                                 <td><span class="badge bg-success">Activated</span></td>
                                 <td>
-                                    <button class="btn btn-danger btn-sm">Deactivate</button>
+                                    <button class="btn btn-danger btn-sm mb-2">Deactivate</button>
                                     <button class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
                                     <button class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
                                 </td>
                             </tr>
-
                             <tr>
                                 <td>4</td>
                                 <td>7</td>
@@ -192,12 +183,11 @@
                                 <td>5.00</td>
                                 <td><span class="badge bg-success">Activated</span></td>
                                 <td>
-                                    <button class="btn btn-danger btn-sm">Deactivate</button>
+                                    <button class="btn btn-danger btn-sm mb-2">Deactivate</button>
                                     <button class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
                                     <button class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
                                 </td>
                             </tr>
-
                             <tr>
                                 <td>5</td>
                                 <td>9</td>
@@ -206,12 +196,11 @@
                                 <td>6.00</td>
                                 <td><span class="badge bg-success">Activated</span></td>
                                 <td>
-                                    <button class="btn btn-danger btn-sm">Deactivate</button>
+                                    <button class="btn btn-danger btn-sm mb-2">Deactivate</button>
                                     <button class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
                                     <button class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
                                 </td>
                             </tr>
-
                             <tr>
                                 <td>6</td>
                                 <td>1</td>
@@ -220,7 +209,7 @@
                                 <td>7.00</td>
                                 <td><span class="badge bg-success">Activated</span></td>
                                 <td>
-                                    <button class="btn btn-danger btn-sm">Deactivate</button>
+                                    <button class="btn btn-danger btn-sm mb-2">Deactivate</button>
                                     <button class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
                                     <button class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
                                 </td>
@@ -228,7 +217,6 @@
                         </tbody>
                     </table>
                 </div>
-
                 <!-- Pagination -->
                 <div class="d-flex justify-content-between">
                     <small>Showing 1 to 6 of 6 entries</small>
@@ -238,14 +226,13 @@
                         <button class="btn btn-light btn-sm">Next</button>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
-                    
-
-        </div>
-    </div>
-
+    <footer class="bg-dark text-white text-center py-2 mt-auto w-100">
+  <div class="container">
+    <p class="mb-0">© 2026 SPMS | All Rights Reserved</p>
+  </div>
+</footer>
   </body>
 </html>
