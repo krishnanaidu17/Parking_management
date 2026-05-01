@@ -14,7 +14,7 @@
     <div class="container-fluid d-flex flex-column flex-grow-1">
       <div class="row">
         <div class="col-12 p-0">
-            <div class="topbar d-flex justify-content-between align-items-center">
+            <div class="topbar d-flex justify-content-between align-items-center flex-nowrap">
                 <div class="d-flex align-items-center">
                     <button class="btn btn-light btn-sm me-2" onclick="toggleSidebar()">
                         <i class="bi bi-list"></i>
@@ -71,6 +71,11 @@
                         <button class="btn btn-info w-100">Generate</button>
                     </div>
                 </div>
+                 <div class="card-header d-flex gap-2 mb-4">
+                   <i class="bi bi-search"></i>
+                   Search Data 
+                   <input class="form-control mb-4" id="searchInput" type="text" placeholder="Search vehicle number... "> 
+                 </div>            
  
                 <!-- REPORT TABLE -->
                 <div class="table-responsive">
